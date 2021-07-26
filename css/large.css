@@ -1,0 +1,252 @@
+.logo {
+   width: 25%;
+}
+
+nav {
+   margin-top: 4.5%;
+}
+.serverErrorHeading {
+   font-size: 200%;
+}
+.serverError {
+   font-size: 150%;
+}
+
+.accountButton {
+   font-size: 140%;
+
+}
+
+.welcomePhrase {
+   font-size: 300%;
+}
+
+.ownToday {
+   margin: 0;
+   margin-top: -52%;
+}
+
+.deloreanImage {
+   position: relative;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   width: 90%;
+}
+
+.hubCap, .flameCol, .bumperSticker, .fluxCap {
+   width: 50%;
+}
+
+.grid-container {
+   display: inline-grid;
+   grid-template-columns: auto auto;
+   grid-row-start: 1;
+   grid-row-end: 2;
+
+}
+
+.grid-item2 {
+   grid-area: 1 / 1 / 1 / 1;
+}
+
+.grid-item1 {
+   grid-area: 1 / 2 / 1 / 2;
+}
+
+.grid {
+   display: grid;
+}
+
+.upgradesTitle {
+   padding-left: 12%;
+}
+
+.upgradesTitle, .reviewsTitle {
+   font-size: 250%;
+}
+
+.reviewsList {
+   font-size: 150%;
+}
+
+.signInTitle {
+   font-size: 300%;
+}
+
+.loginSignUpForm label {
+   padding: 1%;
+}
+
+.signUpP {
+   margin-bottom: -0.5%;
+}
+
+.vManH {
+   font-size: 180%;
+}
+
+.welcomeFirstname {
+   margin: 0;
+   font-size: 110%;
+}
+
+.adminHeader {
+   font-size: 180%;
+}
+
+.vManagement {
+   padding: 0.6% 1% 0.6% 1%;
+}
+
+.dropdownList {
+   font-size: 110%;
+}
+
+.dropdownList2 {
+   font-size: 100%;
+}
+
+.vTable {
+   font-size: 110%;
+}
+
+.adUpAcc {
+   padding: 0.6%;
+}
+
+.dataList{
+   padding-left: 3%;
+}
+
+.updateBorder {
+   border: none;
+   max-width: 50%;
+   margin: 0 auto;
+   padding-bottom: 2%;
+}
+
+.formBorder {
+   border: 10px double #191970;
+   padding: 5%;
+}
+
+.updateButton {
+   margin-top: 5%;
+}
+
+.descContainer {
+   column-gap: 2%;
+   margin: 0;
+   padding: 0;
+}
+
+.rightDesc {
+   padding: 5% 5% 5% 5%;
+   margin: 0% 0% 5% 0%;
+   max-width: 60%;
+}
+
+.upImg {
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   column-gap: 1em;
+   grid-area: auto;
+}
+
+
+.vUploadDropdown select {
+   margin: 0 auto;
+}
+
+.radioField {
+   max-width: 25%;
+}
+
+.detailImages {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+}
+
+.leftThumbs {
+   padding: 0;
+   margin: 0;
+   background-color: white;
+   border: none;
+}
+
+.leftThumbs ul {
+   display: grid;
+   grid-template-columns:  1fr;
+   padding: 0;
+   margin: 0;
+}
+
+.leftThumbs h3 {
+   display: none;
+}
+
+.leftDesc {
+   margin: 0% 0% 5% 0%;
+}
+
+.leftThumbs li {
+   padding: 3% 0% 3% 0%;
+   transition: transform .2s;
+}
+
+.leftThumbs li:hover {
+   transform: scale(1.5);
+}
+
+.mobileThumbHead {
+   display: none;
+}
+
+.adminRevDisplay li {
+   display: grid;
+   grid-template-columns: 70% 1fr;
+   padding: 1% 1% 1% 1%;
+   border: #191970 solid 2px;
+   
+}
+
+.adminRevDisplay {
+   margin: 0;
+   padding: 0;
+   padding-left: 3%;
+   padding-right: 3%;
+   row-gap: 10px;
+}
+
+.adminRevLinks {
+   padding: 0;
+   margin: 0;
+}
+ .adminRevDisplay a {
+    width: fit-content;
+    background-color: #191970;
+    color: white;
+    padding: 1% 3% 1% 3%;
+    text-decoration: none;
+    margin: 0;
+ }
+
+ .reviewButton {
+   padding-left:5%;
+   padding-right: 5%;
+}
+
+.customerReviews {
+   padding-bottom: 3%;
+   width: 70%;
+}
+
+.customerReviews textarea {
+   padding-top: 1%;
+   padding-bottom: 5%;
+}
+
+.invReviewDisplay {
+   width: 70%;
+}

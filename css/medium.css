@@ -1,0 +1,175 @@
+html {
+   background-image: url(../images/site/checkerboard.jpg);
+   background-size: 50%;
+   margin: 0 auto;
+}
+
+body {
+   margin-top: 1.5%;
+   border: solid #4c96d7 3px;
+   border-radius: 1.7%;
+   background-color: white;
+   width: 80%;
+}
+
+.logo {
+   width: 35%;
+}
+
+.welcomePhrase {
+   font-size: 190%;
+}
+
+.delorean {
+   font-size: 190%;
+}
+
+.ownToday {
+   position: relative;
+   z-index: 1;
+   width: 15%;
+   float: left;
+   padding-left: 5%;
+   margin-top: -43%;
+}
+
+.deloreanImage {
+   padding-top: 5%;
+}
+
+.signInTitle {
+   font-size: 250%;
+}
+
+.loginSignUpButton {
+   font-size: 80%;
+   padding: 0.5%;
+}
+
+.passwordInfo {
+   padding-top: 1%;
+}
+
+.showPassword {
+   margin-top: -2%;
+}
+
+.welcomeFirstname {
+   margin-top: -2%;
+}
+
+/* For vehicle display in classification view */
+#inv-display {
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   flex: 1 0 auto;
+}
+
+
+#inv-display h2{
+   font-size: 1rem;
+}
+
+#inv-display {
+  flex: 1 0 auto;
+   justify-content: center;
+   text-align: center;
+   column-gap: 4%;
+}
+
+#inv-display li {
+   transition: transform .2s;
+   max-width: 200px;
+   flex: 1 0 auto;
+   text-align: center;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   border: 2px black solid;
+   box-shadow: 0 4px 8px 0 #4c96d7, 0 6px 20px 0 #4c96d7;
+   box-sizing: border-box;
+}
+
+#inv-display li:hover {
+   transform: scale(1.2); 
+}
+
+   
+#inv-display div {
+   width: auto;
+}
+
+.descContainer {
+   display: flex;
+   column-gap: 2%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+.leftDesc {
+   border: 2px #3a3a3a solid;
+   background-color: lightblue;
+   color: #3a3a3a;
+   padding-top: 0%;
+}
+
+.upImgDiv {
+
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upImg {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 2em;
+   align-items: center;
+   column-gap: 1em;
+
+}
+
+.upImg li {
+   margin: auto;
+}
+
+.vUploadDropdown select {
+   padding: 1%;
+}
+
+.radioField {
+   max-width: 50%;
+}
+
+.detailImages {
+   margin: 0 auto;
+   max-width: 90%;
+}
+
+.leftThumbs {
+   margin: 0 auto;
+   border: #3a3a3a solid 2px;
+   margin-top: 1%;
+   max-width: 94%;
+   margin-bottom: 2%;
+}
+
+.leftThumbs ul {
+   column-gap: 1em;
+   padding: 0% 3% 0% 3%;
+}
+
+.leftThumbs img {
+   width: 90%;
+}
+
+.reviewButton {
+   font-size: 110%;
+}
+
+.reviewButton {
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
